@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Welcome to Flexmonster Pivot Table and Charts Component</title>
+</head>
+<body>
+
+
+		<!-- 1. Create a DIV container to insert the component -->
+		<div id="pivotContainer" style="padding-bottom: 30px;"></div>
+
+		<!-- 2. Include flexmonster.js file -->
+		<script type="text/javascript" src="https://cdn.flexmonster.com/flexmonster.js"></script>
+
+		<!-- 3. Create an instance of the component using new Flexmonster() -->
+	    <script type="text/javascript">
+
+			var jsonData = [
+			  {
+				"Color":{"type": "string"},
+				"M":{"type": "month", "caption":"Month"},
+				"W":{"type": "weekday", "caption":"Week Day"},
+				"Country":{"type":"level", "hierarchy": "Geography", "level":"Country"},
+				"State":{"type":"level", "hierarchy": "Geography", "level":"State", "parent": "Country"},
+				"City":{"type":"level", "hierarchy": "Geography", "parent": "State"},
+				"Price":{"type": "number"},
+				"Quantity":{"type": "number"}
+			  },
+			  {
+				"Color":"green",
+				"M":"September",
+				"W":"Wed",
+				"Country" : "Canada",
+				"State" : "Ontario",
+				"City" : "Toronto",
+				"Price":174,
+				"Quantity":22
+			  },
+			  {
+				"Color":"red",
+				"M":"March",
+				"W":"Mon",
+				"Country" : "USA",
+				"State" : "California",
+				"City" : "Los Angeles",
+				"Price":1664,
+				"Quantity":19
+			  },
+			  {
+				"Color":"red",
+				"M":"January",
+				"W":"Mon",
+				"Country" : "Canada",
+				"State" : "Quebec",
+				"City" : "Montreal",
+				"Price":1190,
+				"Quantity":292
+			  },
+			  {
+				"Color":"green",
+				"D":"04/08/2014",
+				"M":"August",
+				"W":"Fri",
+				"Country" : "USA",
+				"State" : "California",
+				"City" : "Los Angeles",
+				"Price":1222,
+				"Quantity":730
+			  },
+			  {
+				"Color":"white",
+				"M":"March",
+				"W":"Wed",
+				"Country" : "USA",
+				"State" : "California",
+				"City" : "Los Angeles",
+				"Price":7941,
+				"Quantity":73
+			  },
+			  {
+				"Color":"red",
+				"M":"August",
+				"W":"Wed",
+				"Country" : "Canada",
+				"State" : "Ontario",
+				"City" : "Toronto",
+				"Price":6829,
+				"Quantity":19
+			  },
+			  {
+				"Color":"green",
+				"M":"January",
+				"W":"Wed",
+				"Country" : "Canada",
+				"State" : "Quebec",
+				"City" : "Montreal",
+				"Price":2995,
+				"Quantity":98
+			  },
+			  {
+				"Color":"white",
+				"M":"February",
+				"W":"Mon",
+				"Country" : "USA",
+				"State" : "California",
+				"City" : "Los Angeles",
+				"Price":2471,
+				"Quantity":93
+			  },
+			  {
+				"Color":"yellow",
+				"M":"March",
+				"W":"Fri",
+				"Country" : "Canada",
+				"State" : "Ontario",
+				"City" : "Toronto",
+				"Price":6650,
+				"Quantity":40
+			  },
+			  {
+				"Color":"blue",
+				"M":"February",
+				"W":"Wed",
+				"Country" : "Canada",
+				"State" : "Ontario",
+				"City" : "Toronto",
+				"Price":865,
+				"Quantity":45
+			  },
+			  {
+				"Color":"purple",
+				"M":"August",
+				"W":"Wed",
+				"Country" : "Canada",
+				"State" : "Quebec",
+				"City" : "Montreal",
+				"Price":511,
+				"Quantity":46
+			  },
+			  {
+				"Color":"blue",
+				"M":"September",
+				"W":"Mon",
+				"Country" : "Canada",
+				"State" : "Quebec",
+				"City" : "Montreal",
+				"Price":981,
+				"Quantity":18
+			  },
+			  {
+				"Color":"blue",
+				"M":"September",
+				"W":"Fri",
+				"Country" : "Canada",
+				"State" : "Ontario",
+				"City" : "Toronto",
+				"Price":284,
+				"Quantity":24
+			  }
+			];
+
+			var pivot = new Flexmonster({
+                componentFolder: "https://cdn.flexmonster.com/",
+				container: "pivotContainer",
+				toolbar: true,
+				report: {
+					dataSource: {
+						data: jsonData
+					}
+				}
+			});
+	    	
+		</script>
+</body>
+</html>
