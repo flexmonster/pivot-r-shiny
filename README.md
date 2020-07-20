@@ -6,9 +6,11 @@ Website: www.flexmonster.com
 
 Flexmonster Pivot is a powerful Javascript tool for interactive web reporting. It allows you to visualize and analyze data from JSON, CSV, SQL, NoSQL, Elasticsearch, and OLAP data sources fast and conveniently. Flexmonster is designed to integrate seamlessly with any client-side framework and can be easily embedded into your application.
 
-This repository holds the source code for a simple R Shiny and Flexmonster Pivot Table & Charts project.
+This repository holds the source code for a simple R Shiny and Flexmonster Pivot Table & Charts project:
+- [Prerequisites](#prerequisites)
+- [Installation & Usage](#usage)
 
-## Prerequisites
+## <a id="prerequisites"></a>Prerequisites
 
 You will need R to run this project. [Get it here](https://www.r-project.org/) if it’s not already installed on your machine.
 Then install the [Shiny package](https://rstudio.com/products/shiny/) from the R Console:
@@ -17,7 +19,7 @@ Then install the [Shiny package](https://rstudio.com/products/shiny/) from the R
 install.packages("shiny")
 ```
 
-## Installation & Usage
+## <a id="usage"></a>Installation & Usage
 
 Run the project from the R Console with the following commands:
 
