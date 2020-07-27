@@ -13,7 +13,7 @@ This repository holds the source code for a simple R Shiny and Flexmonster Pivot
 
 ## <a id="prerequisites"></a>Prerequisites
 
-To run a sample project with R Shiny pivot table, you will need R. [Get it here](https://www.r-project.org/) if it’s not already installed on your machine.
+To run a sample project with the R Shiny pivot table, you will need R. [Get it here](https://www.r-project.org/) if it’s not already installed on your machine.
 Then install the [Shiny package](https://rstudio.com/products/shiny/) from the R Console:
 
 ```bash
