@@ -12,7 +12,7 @@ Table of contents:
 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Related Flexmonster docs](#related-flexmonster-docs)
 
 ## <a id="prerequisites"></a>Prerequisites
 
@@ -39,5 +39,5 @@ library(shiny)
 runApp('~/my-proj')
 ```
 
-## <a id="usage"></a>Usage
-For details on usage, refer to the [Integration with R Shiny](https://www.flexmonster.com/doc/integration-with-r-shiny/) guide.
+## <a id="related-flexmonster-docs"></a>Related Flexmonster docs
+- [Integration with R Shiny](https://www.flexmonster.com/doc/integration-with-r-shiny/) — learn how to integrate Flexmonster into an R Shiny project.
