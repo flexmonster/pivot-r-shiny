@@ -1,6 +1,6 @@
 # Flexmonster Pivot Table & Charts integration with R Shiny
-[![Flexmonster Pivot Table & Charts](https://cdn.flexmonster.com/landing.png)](https://flexmonster.com)
-Website: www.flexmonster.com
+[![Flexmonster Pivot Table & Charts](https://cdn.flexmonster.com/landing.png)](https://www.flexmonster.com?r=github)
+Website: [www.flexmonster.com](https://www.flexmonster.com?r=github)
 
 ## Flexmonster Pivot Table & Charts
 
@@ -40,4 +40,4 @@ runApp('~/my-proj')
 ```
 
 ## <a id="related-flexmonster-docs"></a>Related Flexmonster docs
-- [Integration with R Shiny](https://www.flexmonster.com/doc/integration-with-r-shiny/) — learn how to integrate Flexmonster into an R Shiny project.
+- [Integration with R Shiny](https://www.flexmonster.com/doc/integration-with-r-shiny?r=github) — learn how to integrate Flexmonster into an R Shiny project.
