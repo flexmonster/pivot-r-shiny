@@ -22,7 +22,7 @@ Table of contents:
 - [R](https://www.r-project.org/)
 - [Shiny package](https://www.rstudio.com/products/shiny/)
 
-  [Invoke R](https://cran.r-project.org/doc/manuals/r-release/R-intro.html#Invoking-R) and install Shiny with the following command:
+  To install Shiny, [invoke R](https://cran.r-project.org/doc/manuals/r-release/R-intro.html#Invoking-R) and run the following command:
   ```bash
   install.packages("shiny")
   ```
